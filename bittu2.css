@@ -1,0 +1,115 @@
+table, th,td  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 500px;
+}
+#main-header {
+    background-color: red;
+    color: white; 
+    padding: 10px;
+}
+.body{
+    background-image: url('../aravind/backgroundimage.jpg');
+    background-repeat: repeat;
+}
+.categories {
+   border: 1px grey solid;
+   padding: 10px;
+   border-radius: 15px; 
+}
+.categories h2 {
+    text-align: center;
+}
+.categories ul {
+ padding: 0;
+ padding-left: 20px;
+ list-style: square;
+ list-style: none;
+}
+ a{
+     text-decoration: none;
+     color: red;
+ }
+ a:hover{
+     color: blue;
+
+ }
+ a:active{
+     color: green;
+
+ }
+ .categories li{
+    padding-bottom: 10px;
+    border-bottom: dotted 1px grey;
+    list-style-image: url('../aravind/checkmark1.png.png');
+
+     
+ }
+ 
+
+#forms1 {
+ padding: 20px;    
+}
+
+.form-group {
+    padding-bottom: 15px;
+
+}
+#forms1 label {
+    display: block;
+}
+#forms1 input,textarea, select{
+    padding: 8px;
+    width: 100%;
+}
+.submit input {
+    padding: 10px;
+    width: 30%;
+    margin-left: 509px;
+    
+}
+.button {
+    background-color: pink;
+    color:black;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background: green;
+    color: grey;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+   
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+
+.fix-it {
+    position: fixed;
+    top: 400px;
+}
+#main-footer{
+    text-align: center;
+    padding: 2px;
+    background-color: grey;
+    color: black;
+    margin-top: 146px;
+
+
+}
